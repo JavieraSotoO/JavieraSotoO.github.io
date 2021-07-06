@@ -9,20 +9,29 @@
     <lastBuildDate>Wed, 17 Jun 2020 19:30:08 +1000</lastBuildDate><atom:link href="https://javierasotoo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post 1</title>
-      <link>https://javierasotoo.github.io/docs/post-1/</link>
+      <link>https://javierasotoo.github.io/docs/post1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://javierasotoo.github.io/docs/post-1/</guid>
+      <guid>https://javierasotoo.github.io/docs/post1/</guid>
       <description>Contenido de mi post 1</description>
     </item>
     
     <item>
       <title>Post 2 - Planimetría</title>
-      <link>https://javierasotoo.github.io/docs/post-2/</link>
+      <link>https://javierasotoo.github.io/docs/post2/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://javierasotoo.github.io/docs/post-2/</guid>
+      <guid>https://javierasotoo.github.io/docs/post2/</guid>
       <description>Encargo 2 - Planimetría</description>
+    </item>
+    
+    <item>
+      <title>Post 3 - Trabajo Individual</title>
+      <link>https://javierasotoo.github.io/docs/post3individual/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/post3individual/</guid>
+      <description>Encargo 3 - Trabajo Individual</description>
     </item>
     
     <item>
@@ -32,6 +41,15 @@
       
       <guid>https://javierasotoo.github.io/docs/ejemplo/</guid>
       <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
+    </item>
+    
+    <item>
+      <title>Post 3 - Trabajo Grupal</title>
+      <link>https://javierasotoo.github.io/docs/post3grupal/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/post3grupal/</guid>
+      <description>Encargo 3 - Trabajo Grupal</description>
     </item>
     
     <item>
