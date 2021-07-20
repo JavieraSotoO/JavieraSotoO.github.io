@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Post 1 - Planimetría - Javiera Soto - Taller Fabricación 2021</title>
+  <title>Post 3 - Mecanizado CNC 2.5 - Javiera Soto - Taller Fabricación 2021</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://javierasotoo.github.io/favicon.png">
@@ -94,7 +94,7 @@
       <a href="https://javierasotoo.github.io/docs/post0/">Post 0</a>
     </li>
     
-    <li class="active ">
+    <li class="">
       <a href="https://javierasotoo.github.io/docs/post1/">Post 1 - Planimetría</a>
     </li>
     
@@ -110,7 +110,7 @@
       <a href="https://javierasotoo.github.io/docs/markdown/">Ejemplos Markdown</a>
     </li>
     
-    <li class="">
+    <li class="active ">
       <a href="https://javierasotoo.github.io/docs/post3/">Post 3 - Mecanizado CNC 2.5</a>
     </li>
     
@@ -125,73 +125,145 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Post 1 - Planimetría</h1>
+<h1 class="title">Post 3 - Mecanizado CNC 2.5</h1>
 <div class="content ">
-  <p>Aquí podemos ver las imágenes de planimetría para el encargo 2. Estas fueron editadas en Ai.</p>
-<p>El modelo seleccionado fue recogido de GrabCad Community. Su nombre es Patio Loft Chair y fue creado por Aleksander Gopotchenko en Marzo de este año.</p>
-<h1 id="imágenes">Imágenes</h1>
-<p><img src="/img/encargo2/1.png" alt="Planimetría1"></p>
-<p><img src="/img/encargo2/2.png" alt="Planimetría2"></p>
-<p><img src="/img/encargo2/3.png" alt="Planimetría3"></p>
-<p><img src="/img/encargo2/4.png" alt="Planimetría4"></p>
-<p><img src="/img/encargo2/5.png" alt="Planimetría5"></p>
+  <h1 id="corte-25">Corte 2.5</h1>
+<p>Corte para piezas de mecanizado rápido de baja complejidad. Para esto, tomaremos el respaldo de la silla Fresia para mostrar los pasos a seguir en Fusion360.</p>
+<hr>
+<div>
+    <iframe 
+    src='https://a360.co/36k2C4c'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+<div>
+    <iframe 
+    src='https://a360.co/3hSN2U3'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+<hr>
+<h1 id="pasos---mecanizado-cnc-corte-25">Pasos - Mecanizado CNC corte 2.5</h1>
+<h2 id="1-exportar-respaldo">1. Exportar Respaldo</h2>
+<p>Desde el archivo de la silla Fresia, seleccionar unicamente el respaldo de esta y exportarla como archivo nuevo para abrirla sola en otra pestaña de Fusion360.</p>
+<p><img src="/img/Mecanizado2.5/pic1.png" alt="pic1"></p>
+<h2 id="2-posicionar-a-partir-del-origen">2. Posicionar a partir del origen</h2>
+<p>A través de moviemientos y rotaciones del respaldo se debe posicionar lo más cercano al origen posible. Además se debe alinear la cara lateral del respaldo con la del origen.</p>
+<p><img src="/img/Mecanizado2.5/pic2.png" alt="pic2"></p>
+<h2 id="3-crear-extrusión-que-contenga-el-respaldo">3. Crear extrusión que contenga el respaldo</h2>
+<p>A través de un sketch en forma de rectángulo, creamos una superficie que contenga las dimensiones del respaldo. Luego, extruirlas apretando la letra E y darle la altura necesaria que se necesite para cubrir el respaldo. Se debe bajar la opacidad de la extrusión hasta un 20% para así poder ver los cambios que se van generando.</p>
+<p><img src="/img/Mecanizado2.5/pic3.png" alt="pic3"></p>
+<h2 id="4-selección-de-la-máquina">4. Selección de la máquina</h2>
+<p>En el modo Manufacture, seleccionar la máquina que se utilizará. Esta será &lsquo;Generic3 Axis&rsquo;</p>
+<p><img src="/img/Mecanizado2.5/pic4.png" alt="pic1"></p>
+<h2 id="5-cambiar-origen">5. Cambiar origen</h2>
+<p>A través del establecimiento de nuevos puntos de referencia, crear un nuevo punto de origen que esté posicionado a partir del respaldo.</p>
+<p><img src="/img/Mecanizado2.5/pic5.png" alt="pic5"></p>
+<h2 id="6-crear-referencia-desde-el-respaldo">6. Crear referencia desde el respaldo</h2>
+<p>Crear un nuevo sketch que delimite el espacio utilizado por el respaldo dentro de la extrusión</p>
+<p><img src="/img/Mecanizado2.5/pic6.png" alt="pic6"></p>
+<h2 id="7-seleccionar-fresadora">7. Seleccionar Fresadora</h2>
+<p><img src="/img/Mecanizado2.5/pic7.png" alt="pic7"></p>
+<h2 id="8-simulación">8. Simulación</h2>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/video2.mp4"  type="video/mp4">
+    </video>
+</div>
+<h2 id="9-modificar-longitud-de-la-fresadora">9. Modificar longitud de la fresadora</h2>
+<p>Al ver las simulaciones, podemos notar que existen ciertas fallas que se debn a que la longitud de la fresadora no es lo suficientemente larga para generar bien el corte.
+Para esto, la longitud por debajo del soporte debe pasar de 22.5 a 40 mm.</p>
+<p><img src="/img/Mecanizado2.5/pic12.png" alt="pic12"></p>
+<p><img src="/img/Mecanizado2.5/pic13.png" alt="pic13"></p>
+<h2 id="10-corregir-el-error">10. Corregir el error</h2>
+<p>Al haber cambiado la longitud de la fresadora, se deben corregir los errores que se arrojan. Para esto, se debe elegir la nueva fresadora para cada uno de los cortes.</p>
+<p><img src="/img/Mecanizado2.5/pic14.png" alt="pic14"></p>
+<hr>
+<h2 id="resultado-del-corte">Resultado del corte</h2>
+<p><img src="/img/Mecanizado2.5/pic15.png" alt="pic15"></p>
+<hr>
+<h1 id="fotos-reales">Fotos Reales</h1>
 <p>
 <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
 
 <div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://javierasotoo.github.io//img/encargo2//1.png');" >
-				      <img itemprop="thumbnail" src="https://javierasotoo.github.io//img/encargo2//1.png" alt="1st" />
+				    <div class="img" style="background-image: url('https://javierasotoo.github.io//img/Galeria2.5//FR1.png');" >
+				      <img itemprop="thumbnail" src="https://javierasotoo.github.io//img/Galeria2.5//FR1.png" alt="Fr1" />
 				    </div>
 			      <figcaption>
-		          <p>1st</p>
+		          <p>Fr1</p>
 			      </figcaption>
-				    <a href="https://javierasotoo.github.io//img/encargo2//1.png" itemprop="contentUrl"></a>
+				    <a href="https://javierasotoo.github.io//img/Galeria2.5//FR1.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://javierasotoo.github.io//img/encargo2//2.png');" >
-				      <img itemprop="thumbnail" src="https://javierasotoo.github.io//img/encargo2//2.png" alt="2nd" />
+				    <div class="img" style="background-image: url('https://javierasotoo.github.io//img/Galeria2.5//FR2.png');" >
+				      <img itemprop="thumbnail" src="https://javierasotoo.github.io//img/Galeria2.5//FR2.png" alt="Fr2" />
 				    </div>
 			      <figcaption>
-		          <p>2nd</p>
+		          <p>Fr2</p>
 			      </figcaption>
-				    <a href="https://javierasotoo.github.io//img/encargo2//2.png" itemprop="contentUrl"></a>
+				    <a href="https://javierasotoo.github.io//img/Galeria2.5//FR2.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://javierasotoo.github.io//img/encargo2//3.png');" >
-				      <img itemprop="thumbnail" src="https://javierasotoo.github.io//img/encargo2//3.png" alt="3rd" />
+				    <div class="img" style="background-image: url('https://javierasotoo.github.io//img/Galeria2.5//FR3.png');" >
+				      <img itemprop="thumbnail" src="https://javierasotoo.github.io//img/Galeria2.5//FR3.png" alt="Fr3" />
 				    </div>
 			      <figcaption>
-		          <p>3rd</p>
+		          <p>Fr3</p>
 			      </figcaption>
-				    <a href="https://javierasotoo.github.io//img/encargo2//3.png" itemprop="contentUrl"></a>
+				    <a href="https://javierasotoo.github.io//img/Galeria2.5//FR3.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://javierasotoo.github.io//img/encargo2//4.png');" >
-				      <img itemprop="thumbnail" src="https://javierasotoo.github.io//img/encargo2//4.png" alt="4th" />
+				    <div class="img" style="background-image: url('https://javierasotoo.github.io//img/Galeria2.5//FR4.png');" >
+				      <img itemprop="thumbnail" src="https://javierasotoo.github.io//img/Galeria2.5//FR4.png" alt="Fr4" />
 				    </div>
 			      <figcaption>
-		          <p>4th</p>
+		          <p>Fr4</p>
 			      </figcaption>
-				    <a href="https://javierasotoo.github.io//img/encargo2//4.png" itemprop="contentUrl"></a>
+				    <a href="https://javierasotoo.github.io//img/Galeria2.5//FR4.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://javierasotoo.github.io//img/encargo2//5.png');" >
-				      <img itemprop="thumbnail" src="https://javierasotoo.github.io//img/encargo2//5.png" alt="5th" />
+				    <div class="img" style="background-image: url('https://javierasotoo.github.io//img/Galeria2.5//FR5.png');" >
+				      <img itemprop="thumbnail" src="https://javierasotoo.github.io//img/Galeria2.5//FR5.png" alt="Fr5" />
 				    </div>
 			      <figcaption>
-		          <p>5th</p>
+		          <p>Fr5</p>
 			      </figcaption>
-				    <a href="https://javierasotoo.github.io//img/encargo2//5.png" itemprop="contentUrl"></a>
+				    <a href="https://javierasotoo.github.io//img/Galeria2.5//FR5.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://javierasotoo.github.io//img/Galeria2.5//FR6.png');" >
+				      <img itemprop="thumbnail" src="https://javierasotoo.github.io//img/Galeria2.5//FR6.png" alt="Fr6" />
+				    </div>
+			      <figcaption>
+		          <p>Fr6</p>
+			      </figcaption>
+				    <a href="https://javierasotoo.github.io//img/Galeria2.5//FR6.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 </div>
