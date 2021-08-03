@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Taller de Fabricación 2021 on Javiera Soto - Taller Fabricación 2021</title>
+    <link>https://javierasotoo.github.io/docs/</link>
+    <description>Recent content in Taller de Fabricación 2021 on Javiera Soto - Taller Fabricación 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="https://javierasotoo.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post 0</title>
+      <link>https://javierasotoo.github.io/docs/post0/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/post0/</guid>
+      <description>Contenido de mi post 1</description>
+    </item>
+    
+    <item>
+      <title>Post 1 - Planimetría</title>
+      <link>https://javierasotoo.github.io/docs/post1/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/post1/</guid>
+      <description>Encargo 2 - Planimetría</description>
+    </item>
+    
+    <item>
+      <title>Post 2 - Trabajo Individual</title>
+      <link>https://javierasotoo.github.io/docs/post2individual/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/post2individual/</guid>
+      <description>Encargo 3 - Trabajo Individual</description>
+    </item>
+    
+    <item>
+      <title>Post 2 - Trabajo Grupal</title>
+      <link>https://javierasotoo.github.io/docs/post2grupal/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/post2grupal/</guid>
+      <description>Encargo 3 - Trabajo Grupal</description>
+    </item>
+    
+    <item>
+      <title>Post 3 - Mecanizado CNC 2.5</title>
+      <link>https://javierasotoo.github.io/docs/post3/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/post3/</guid>
+      <description>Encargo 3 - CNC 2.5</description>
+    </item>
+    
+    <item>
+      <title>Post 4 - Simulación y Diseño Generativo</title>
+      <link>https://javierasotoo.github.io/docs/post4/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/post4/</guid>
+      <description>Encargo 4 - Simulación y Diseño Generativo</description>
+    </item>
+    
+    <item>
+      <title>Post 5 - Impresión 3D</title>
+      <link>https://javierasotoo.github.io/docs/post5/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/post5/</guid>
+      <description>Encargo 5 - Impresión 3D</description>
+    </item>
+    
+    <item>
+      <title>Post 6 - Complementarios</title>
+      <link>https://javierasotoo.github.io/docs/post6/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/post6/</guid>
+      <description>Encargo 5 - Complementarios</description>
+    </item>
+    
+    <item>
+      <title>Ejemplos Markdown</title>
+      <link>https://javierasotoo.github.io/docs/markdown/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/markdown/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>Ejemplo Shortcodes</title>
+      <link>https://javierasotoo.github.io/docs/ejemplo/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/ejemplo/</guid>
+      <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
+    </item>
+    
+  </channel>
+</rss>
