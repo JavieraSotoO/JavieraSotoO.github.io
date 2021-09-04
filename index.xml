@@ -89,21 +89,39 @@
     </item>
     
     <item>
-      <title>Ejemplo Shortcodes</title>
-      <link>https://javierasotoo.github.io/docs/ejemplo/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://javierasotoo.github.io/docs/ejemplo/</guid>
-      <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
-    </item>
-    
-    <item>
       <title>EXÁMEN: ITERACIÓN 2</title>
       <link>https://javierasotoo.github.io/docs/post8/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://javierasotoo.github.io/docs/post8/</guid>
       <description>Proceso de investigación y experimentación a través del cual desarrollamos nuestro exámen.</description>
+    </item>
+    
+    <item>
+      <title>EXÁMEN: ITERACIÓN MOLDE</title>
+      <link>https://javierasotoo.github.io/docs/post9/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/post9/</guid>
+      <description>Proceso de investigación y experimentación a través del cual desarrollamos nuestro exámen.</description>
+    </item>
+    
+    <item>
+      <title>EXÁMEN: FINAL</title>
+      <link>https://javierasotoo.github.io/docs/post10/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/post10/</guid>
+      <description>Proceso de investigación y experimentación a través del cual desarrollamos nuestro exámen.</description>
+    </item>
+    
+    <item>
+      <title>Ejemplo Shortcodes</title>
+      <link>https://javierasotoo.github.io/docs/ejemplo/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://javierasotoo.github.io/docs/ejemplo/</guid>
+      <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
     </item>
     
     <item>
